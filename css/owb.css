@@ -1,0 +1,97 @@
+body{
+	background-color: black;
+	margin:0;
+}
+/*.container{
+	width:100%;
+}*/
+
+/******HEADER******/
+header{
+	height:900px;
+	background-image:       
+	 /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.8), 
+          rgba(0, 0, 0, 0.8)
+        ),
+     /*bg*/
+        url(../img/imgowb/home.jpg);background-size:cover;background-position: center;
+}
+
+nav a{
+	color:white;
+}
+
+/*.orgend{
+	color:#25B9A5;
+}*/
+
+/***jumbotron***/
+.jumbotron{
+	margin:20% auto;
+}
+
+/******CONTAINER*******/
+
+.percent{
+	height:100%;
+	background-image:url(../img/imgowb/home.jpg);background-size:cover;background-position:center;
+}
+
+
+
+/*legend*/
+/*fieldset{
+	height:100%;
+	border:1px black solid;
+}*/
+
+/***cardbegin***/
+.ig{
+	position:relative;
+	width:20%;
+	margin-top:-20%;
+	/*background-color: white;*/
+}
+
+img{
+	max-width:100%;
+	height:auto;
+}
+
+/****carousel****/
+.carousel{
+	width:100%;
+}
+
+/*OURPRICING*/
+/*.card-header{
+	background-color: #25B9A5;
+}*/
+
+p.monnaie{
+	height:15%;
+}
+
+.price{
+	background-color:#25B9A5; 
+	margin:0 auto;
+}
+.prices{
+	font-size:50px;
+}
+
+/*FOOTER*/
+/*.foot{
+	background-color: black;
+}*/
+
+	/*pointderupture*****767px*/
+    @media screen and (max-width: 767px)
+{
+	/*header*/
+	header{
+		height:100%;
+	}
+}
