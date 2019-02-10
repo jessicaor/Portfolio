@@ -1,0 +1,83 @@
+body{
+    margin:0;
+    /*background-color: aquamarine;*/
+    font-size: 1.6em; 
+}
+
+html{
+    font-size:60.5%;
+}
+
+.container-fluid{
+    padding:0;
+}
+
+header{
+    background-image:url('../img/astronomybg.jpg');
+    background-repeat:no-repeat;
+    height:700px;
+    
+}
+/*NAVBAR*/
+.navbg{
+    z-index: 1000;
+    position:fixed;
+    padding:0!important;
+    width:100%;
+    height:auto;
+    /*background-color: white;*/
+}
+
+.navbar-brand{
+    font-size:30px;
+}
+.nav-item:hover{ 
+    border-right: 3px grey solid;
+
+    transition: 0.3s ease all;  
+}
+
+nav{
+    height:auto;
+}
+
+
+/*COMPETENCES*/
+
+ul:first-child{
+    list-style-type: none;
+}
+
+.comp_title{
+    color:#351F39;
+}
+
+.competences{
+    padding-top:10%;
+    padding-bottom:5%;
+}
+
+.comp_list{
+    height:auto;
+    padding-bottom:10%;
+}
+
+/*comp_prog*/
+li{
+    list-style-type: none;
+}
+
+progress{
+    background-color:white!important;
+    border-radius:10px 10px 10px 10px;
+
+}
+
+.progress{
+    width:60%;
+    margin:0 auto;
+}
+.progress-bar{
+    width:60%;
+    background-color: blueviolet!important;
+}
