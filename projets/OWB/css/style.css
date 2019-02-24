@@ -16,7 +16,7 @@ header{
           rgba(0, 0, 0, 0.8)
         ),
      /*bg*/
-        url(../img/imgowb/home.jpg);background-size:cover;background-position: center;
+        url(../img/home.jpg);background-size:cover;background-position: center;
 }
 
 nav a{
@@ -36,7 +36,7 @@ nav a{
 
 .percent{
 	height:100%;
-	background-image:url(../img/imgowb/home.jpg);background-size:cover;background-position:center;
+	background-image:url(../img/home.jpg);background-size:cover;background-position:center;
 }
 
 
